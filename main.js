@@ -1,5 +1,3 @@
-var Backbone = require("backbone");
-
 var binding = function(model1, field1, model2, field2){
   if(field2===undefined){
     field2 = field1;
