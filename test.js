@@ -72,4 +72,4 @@ computedProperty(m6, "income", [[m5, "income"]], function(income){
 
 assert.throws(function(){
   m5.set("income", 3);
-});
+}, /Cycular dependencies detected!/);
